@@ -571,7 +571,7 @@ function newobject:SetParent(parent)
 	local ptype = tparent.type
 	local stype = self.type
 	
-	if ptype ~= "frame" and ptype ~= "panel" and ptype ~= "list" then
+	if ptype ~= "frame" and ptype ~= "panel" and ptype ~= "list" and ptype ~= "form" then
 		return
 	end
 	
